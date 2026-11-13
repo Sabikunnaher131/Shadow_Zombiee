@@ -14,4 +14,8 @@ Survive two levels in the dark: use the flashlight to reveal zombies, shoot them
 - **Shift:** Sprint
 - **P:** Pause or resume
 
-The game is a static HTML, CSS, and JavaScript site. GitHub Pages publishes it from the repository root using the workflow in `.github/workflows/deploy.yml`.
+## Publish with GitHub Pages
+
+For the first deployment, open **Settings → Pages** and select **GitHub Actions** under **Build and deployment → Source**. Then open **Actions → Deploy game to GitHub Pages → Run workflow**. Later pushes to `main` deploy automatically.
+
+The site is a static HTML, CSS, JavaScript, and audio project. No build step or package installation is needed.
